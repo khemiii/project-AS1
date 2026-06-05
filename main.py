@@ -10,6 +10,10 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import random
 
+# Zufall reproduzierbar machen
+np.random.seed(42)
+random.seed(42)
+
 # Parameter
 gitter_groesse = 30
 leere_zellen_anteil = 0.05
